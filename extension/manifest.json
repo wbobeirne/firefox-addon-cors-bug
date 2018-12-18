@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "CORS Bug",
+  "description": "Test a firefox addon cors bug",
+  "version": "0.2.1",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "permissions": [
+    "http://localhost:6021/*"
+  ]
+}
